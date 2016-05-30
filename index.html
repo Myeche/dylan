@@ -12,7 +12,7 @@
     <title>Dylan Grinder</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
@@ -73,6 +73,7 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for Slides -->
@@ -80,8 +81,13 @@
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url(img/p2.jpg);"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                
+                        <div class="carousel-caption">
+                           <div class="container">
+                    <div class="row">
+                           <img src="img/Logodylan.png" style="width: 10%;">
+                    </div>
+                    </div>
                 </div>
             </div>
             <div class="item">
@@ -118,7 +124,7 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+  <!--  <div class="container">
 
         <div class="row">
             <div class="col-lg-12">
@@ -128,7 +134,7 @@
         </div>
 
         <hr>
-
+-->
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -151,7 +157,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 0 //changes the speed
     })
     </script>
 
