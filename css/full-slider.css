@@ -127,3 +127,13 @@ h3 {
 .about{
     margin-top: 5%;
 }
+.form{
+    margin-top: 10%;
+    max-width: 700px;
+    margin-left: 20%;
+}
+label{
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+    
+}
