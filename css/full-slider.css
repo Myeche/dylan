@@ -20,6 +20,9 @@ body {
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
+p{
+   font-family: 'Source Sans Pro', sans-serif;
+}
 
 .fill {
     width: 100%;
@@ -41,9 +44,28 @@ footer {
     font-size: 40px;
     font-variant: small-caps;
     padding: 1%;
+       margin-left: 40%;
 }
 .logo{
-    padding-top: 20%;
+   margin-left: 45%;
+    margin-top: -5%;
+    
+}
+.subta{
+       margin-left: 35%;
+    font-size: 2em;
+    color: #2EA8E3;
+}
+.menu{
+    list-style-type: none;
+   font-size: 2em;
+    margin-top: 5%;
+    line-height: 1.7em;
+}
+.intro{
+     margin-left: 50%;
+    max-width: 550px;
+    font-size: 1.1em;
 }
 .home{
     background-image: url(../img/p2.jpg);
