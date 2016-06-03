@@ -24,6 +24,7 @@ body {
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
 }
 
 .fill {
@@ -112,4 +113,17 @@ h3 {
 #nav li {
     float: left;
     text-align: center;
+}
+
+.page-title{
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    max-width: 600px;
+}
+.con1{
+        padding: 100px 0;
+}
+.about{
+    margin-top: 5%;
 }
