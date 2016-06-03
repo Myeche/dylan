@@ -18,7 +18,9 @@ body {
 .carousel-inner {
     height: 100%;
 }
-
+.navbar:hover{
+    background-color: rgba(64, 64, 64, 0.8);
+}
 
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -78,7 +80,9 @@ hr.line {
     color: #fff;
     padding: 0;
 }
-
+.menu span:hover{
+    background-color:rgba(64, 64, 64, 0.8);
+}
 .blue {
     background-color: #0389ba;
     padding: 5px;
@@ -104,6 +108,7 @@ hr.line {
     width: 100%;
     height: 100%;
     background-position: 0px 0px;
+ 
 }
 
 h3 {
