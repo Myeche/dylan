@@ -19,9 +19,11 @@ body {
     height: 100%;
 }
 
+
 /* Background images are set within the HTML using inline CSS, not here */
-p{
-   font-family: 'Source Sans Pro', sans-serif;
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .fill {
@@ -37,59 +39,77 @@ p{
 footer {
     margin: 50px 0;
 }
+
+
 /*layout*/
-.tagline{
+
+.tagline {
     font-family: 'Raleway', sans-serif;
     color: black;
     font-size: 40px;
     font-variant: small-caps;
     padding: 1%;
-       margin-left: 42%;
+    margin-left: 42%;
 }
-.logo{
-   margin-left: 48%;
-    margin-top: -3%;
-    
+
+.logo {
+    margin-left: 48%;
+    margin-top: -5%;
 }
-.subta{
-       margin-left: 38%;
+
+.subta {
+    margin-left: 10%;
     font-size: 2em;
     color: #0389ba;
     margin-top: -1%;
-    margin-bottom: 2.5%;
+    margin-bottom: 6.5%;
 }
-.menu{
+
+hr.line {
+    border-top: 2px solid #0389ba;
+}
+
+.menu {
     list-style-type: none;
-   font-size: 1.8em;
+    font-size: 1.8em;
     margin-top: 2.5%;
     line-height: 2.3em;
     color: #fff;
     padding: 0;
-
 }
-.blue{
+
+.blue {
     background-color: #0389ba;
     padding: 5px;
 }
-.intro{
-     margin-left: 43%;
+
+.intro {
+    margin-left: 43%;
     max-width: 600px;
     font-size: 1.1em;
-    background-color: rgba(64,64,64,0.4);
+    background-color: rgba(64, 64, 64, 0.4);
     margin-top: -1%;
 }
-.phome{
+
+.phome {
     color: #fff;
     padding: 2.5%;
     font-size: 1.1em;
 }
-.home{
+
+.home {
     background-image: url(../img/p2.jpg);
-        padding: 160px 0;
+    padding: 160px 0;
     width: 100%;
     height: 100%;
     background-position: 0px 0px;
 }
-h3{
-    color:#fff;
+
+h3 {
+    color: #fff;
+}
+
+#nav li {
+    float: left;
+    text-align: center;
 }
