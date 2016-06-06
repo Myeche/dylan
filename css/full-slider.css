@@ -37,6 +37,8 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+     opacity: 0.7;
+   filter: alpha(opacity=50);
 }
 
 footer {
@@ -45,6 +47,16 @@ footer {
 
 
 /*layout*/
+h2{
+    color: #000;
+    font-family: 'Raleway' sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 80px;
+    text-align: justify;
+    margin: 0 auto;
+    
+}
 
 .tagline {
     font-family: 'Raleway', sans-serif;
