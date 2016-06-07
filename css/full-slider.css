@@ -164,3 +164,9 @@ label{
     margin-top: 5%;
     
 }
+
+.gallery{
+    background-color: black;
+    width: 200px;
+    top: 150px;
+}
