@@ -6456,9 +6456,10 @@ button.close {
     margin-right: -10px;
   }
   .carousel-caption {
-    right: 50%;
-  
+    right: -50%;
+    width: 150%;
     padding-bottom: 30px;
+    position: initial;
   }
   .carousel-indicators {
     bottom: 20px;

@@ -49,12 +49,12 @@ footer {
 /*layout*/
 h2{
     color: #000;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 30%;
     font-size: 4em;
     text-transform: uppercase;
-    letter-spacing: 80px;
-    text-align: justify;
-    margin: 0 auto;
+    letter-spacing: 70px;
+   margin-top: 15%;
     
 }
 
@@ -167,6 +167,11 @@ label{
 
 .gallery{
     background-color: black;
-    width: 200px;
-    top: 150px;
+    height: 300px;
+    width: 100%;
+    margin-top: 23%;
+    z-index: 2;
+}
+.port-title{
+    margin: auto;
 }
